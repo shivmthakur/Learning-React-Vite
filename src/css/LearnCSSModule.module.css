@@ -1,0 +1,13 @@
+.card {
+    text-align: center;
+    border: 2px solid red;
+    width: auto;
+}
+
+.img {
+    width: 200px;
+}
+
+.textContainer {
+    font-style: italic;
+}

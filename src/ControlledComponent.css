@@ -1,0 +1,23 @@
+.universal-container {
+    width: auto;
+    border: 2px solid #405041;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+form .element-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.material-symbols-outlined {
+    font-size: 18px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
