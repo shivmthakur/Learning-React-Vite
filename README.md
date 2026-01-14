@@ -496,6 +496,12 @@ function setOnlineStatus() { // Not a component or custom Hook
 -  Example
 -  Update data with context api.
 
+## useReducer Hook in React js
+
+### Component used - LearnUseReducer.jsx
+
+-  
+
 ##  React Router 7 in React js
 
 ### Component used - LearnReactRouter.jsx
