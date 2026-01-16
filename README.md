@@ -500,7 +500,8 @@ function setOnlineStatus() { // Not a component or custom Hook
 
 ### Component used - LearnUseReducer.jsx
 
--  
+-  What is useReducer Hook
+-  Example of useReducer Hook
 
 ##  React Router 7 in React js
 
