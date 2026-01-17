@@ -501,7 +501,9 @@ function setOnlineStatus() { // Not a component or custom Hook
 ### Component used - LearnUseReducer.jsx
 
 -  What is useReducer Hook
--  Example of useReducer Hook
+-  Define some input fields to make examples
+-  Define default value for input field
+-  Define useReducer Hook
 
 ##  React Router 7 in React js
 

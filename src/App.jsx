@@ -39,6 +39,7 @@ import LearnFragment from './LearnFragment';
 import LearnCustomHook from './LearnCustomHook';
 import LearnContextAPI from './LearnContextAPI';
 import LearnReactRouter from './LearnReactRouter';
+import LearnUseReducer from './LearnUseReducer';
 
 function App() {
 
@@ -122,6 +123,8 @@ function App() {
 			<LearnContextAPI />
 			<hr />
 			<LearnReactRouter />
+			<hr />
+			<LearnUseReducer />
 			<hr />
 			<Footer />
 		</>
