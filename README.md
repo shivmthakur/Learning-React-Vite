@@ -496,15 +496,6 @@ function setOnlineStatus() { // Not a component or custom Hook
 -  Example
 -  Update data with context api.
 
-## useReducer Hook in React js
-
-### Component used - LearnUseReducer.jsx
-
--  What is useReducer Hook
--  Define some input fields to make examples
--  Define default value for input field
--  Define useReducer Hook
-
 ##  React Router 7 in React js
 
 ### Component used - LearnReactRouter.jsx
@@ -561,3 +552,69 @@ function setOnlineStatus() { // Not a component or custom Hook
 -  Example of Layout Routes
 -  Index Routes
 -  Examples of Index Routes
+
+## What is API
+
+### Component used - LearnAPI.jsx
+
+-  What is API
+
+  -  Application Programming interface.
+  -  We need data from DB when making projects.
+  -  But JS can not connect with Database.
+  -  So we make api in other language as Java, PHP or node etc.
+
+-  Shared Data with API
+
+  -  We need same data in multiple platform.
+  -  Like Web App, mobile app, Windows OS etc.
+  -  So we make API in one language.
+  -  And use same api with all platforms.
+
+-  Why we need it
+
+## Fetch data from API with Get method
+
+### Component used - LearnAPI.jsx
+
+-  API methods
+
+  -  GET
+  -  POST
+  -  PUT/PATCH
+  -  DELETE
+
+-  Test API
+-  Integrate API
+-  Display API data
+
+## useReducer Hook in React js
+
+### Component used - LearnUseReducer.jsx
+
+-  What is useReducer Hook
+-  Define some input fields to make examples
+-  Define default value for input field
+-  Define useReducer Hook
+
+##  Activity in React 19.2.0
+
+### Component used - LearnActivity.jsx
+ 
+-  What is Activity in React
+
+  -  The <Activity> is a wrapper component that lets you hide parts of your UI but preserve their state and DOM.
+
+-  What Problem it resolve
+-  Example of Activity
+
+##  useEffectEvent in React 19.2.0
+
+### Component used - LearnUseEffectEvent.jsx
+ 
+-  What is useEffectEvent
+
+  -  `useEffectEvent` is a **React Hook** that lets you write functions inside `useEffect` that always use the **latest state or props, without re-running the entire effect** every time something changes.
+
+-  Problem Statement ( Why we need useEffectEvent Hook )
+-  Solution with useEffectEvent
