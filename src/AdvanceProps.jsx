@@ -34,7 +34,7 @@ function AdvanceProps() {
 }
 
 // How to pass default props to a component
-export function Users ({ name = "Guest", age = 18 }) {
+function Users ({ name = "Guest", age = 18 }) {
     return (
         <>
             <p>Name: {name}</p>
@@ -43,7 +43,7 @@ export function Users ({ name = "Guest", age = 18 }) {
     );
 }
 
-export function Wrapper({children, color = "gray"}) {
+function Wrapper({children, color = "gray"}) {
     let styleObject = {
         color: color,
         fontSize: "20px",
