@@ -13,7 +13,6 @@ function HandleCheckbox() {
     };
 
     return (
-        <>
         <div className="universal-container">
             <p>List of Skills</p>
             <input onChange={handleChange} type="checkbox" value="Football" id="Football" />
@@ -27,9 +26,8 @@ function HandleCheckbox() {
 
             <input onChange={handleChange} type="checkbox" value="VolleyBall" id="VolleyBall" />
             <label htmlFor="VolleyBall">VolleyBall</label>
+            <h4>List of selected Skills are - {check.join(", ")}</h4>
         </div>
-        <h2>List of selected Skills are - {check.join(", ")}</h2>
-        </>
     );
 }
 

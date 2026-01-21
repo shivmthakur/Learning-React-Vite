@@ -21,7 +21,7 @@ export function Props () {
     );
 }
 
-export function UserComponent(props) {
+function UserComponent(props) {
     return (
         <>
             <h4>Printing User Details</h4>
@@ -32,7 +32,7 @@ export function UserComponent(props) {
     );
 }
 
-export function DynamicObjectUserComponent({ name, age, Location}) {
+function DynamicObjectUserComponent({ name, age, Location}) {
     return (
         <>
             <h4>Printing User Details</h4>
@@ -43,7 +43,7 @@ export function DynamicObjectUserComponent({ name, age, Location}) {
     );
 }
 
-export function DynamicArrayUserComponent({ name, age, Location}) {
+function DynamicArrayUserComponent({ name, age, Location}) {
     return (
         <>
             <h4>Printing User Details</h4>

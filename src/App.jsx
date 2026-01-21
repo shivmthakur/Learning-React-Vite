@@ -39,6 +39,12 @@ import LearnFragment from './LearnFragment';
 import LearnCustomHook from './LearnCustomHook';
 import LearnContextAPI from './LearnContextAPI';
 import LearnReactRouter from './LearnReactRouter';
+import LearnAPI from './LearnAPI';
+import LearnUseReducer from './LearnUseReducer';
+import LearnActivity from './LearnActivity';
+import LearnUseEffectEvent from './LearnUseEffectEvent';
+import LearnUseCallback from './LearnUseCallback';
+import LearnUseMemo from './LearnUseMemo';
 
 function App() {
 
@@ -122,6 +128,18 @@ function App() {
 			<LearnContextAPI />
 			<hr />
 			<LearnReactRouter />
+			<hr />
+			<LearnAPI />
+			<hr />
+			<LearnUseReducer />
+			<hr />
+			<LearnActivity />
+			<hr />
+			<LearnUseEffectEvent />
+			<hr />
+			<LearnUseCallback />
+			<hr />
+			<LearnUseMemo />
 			<hr />
 			<Footer />
 		</>
