@@ -43,6 +43,8 @@ import LearnAPI from './LearnAPI';
 import LearnUseReducer from './LearnUseReducer';
 import LearnActivity from './LearnActivity';
 import LearnUseEffectEvent from './LearnUseEffectEvent';
+import LearnUseCallback from './LearnUseCallback';
+import LearnUseMemo from './LearnUseMemo';
 
 function App() {
 
@@ -134,6 +136,10 @@ function App() {
 			<LearnActivity />
 			<hr />
 			<LearnUseEffectEvent />
+			<hr />
+			<LearnUseCallback />
+			<hr />
+			<LearnUseMemo />
 			<hr />
 			<Footer />
 		</>
