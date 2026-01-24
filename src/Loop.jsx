@@ -78,7 +78,7 @@ function Loop() {
                 <tbody>
                     {
                         userData.map((user) => {
-                            return <UserDetails key={user.id} user={user} />
+                            return <UserDetails id={user.id} user={user} />
                         })
                     }
                 </tbody>
@@ -87,14 +87,14 @@ function Loop() {
     );
 }
 
-export function UserDetails({user}) {
+function UserDetails({id, user}) {
 
     return (
         <tr>
-            <td>{user.id}</td>
-            <td>{user.name}</td>
-            <td>{user.age}</td>
-            <td>{user.email}</td>
+            <td key={id}>{user.id}</td>
+            <td key={id}>{user.name}</td>
+            <td key={id}>{user.age}</td>
+            <td key={id}>{user.email}</td>
         </tr>
     );
 }

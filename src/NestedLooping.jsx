@@ -100,7 +100,7 @@ function NestedLooping() {
     );
 }
 
-export function College ({college}) {
+function College ({college}) {
     return (
         <div className="universal-container" key={college.collegeCode}>
             <ul>
@@ -124,7 +124,7 @@ export function College ({college}) {
     );
 }
 
-export function Student ({student}) {
+function Student ({student}) {
     return (
         <div key={student.studentId}>
             <table border="1px solid #000" width="400px" textAlign="center">
