@@ -22,6 +22,7 @@ function LearnUseActionState() {
     }
 
     const [data, action, pending] = useActionState(handleSubmit, undefined);
+    
     console.log("Action State Data:", data);
 
     return (

@@ -18,7 +18,7 @@ function UseEffectProps () {
 export function Counter ({ count, data }) {
 
     const reRenderedFunction = () => {
-        alert("This fn() gets re-rendered every time the props gets updated in the parent component");
+        console.log("This fn() gets re-rendered every time the props gets updated in the parent component");
     }
 
     // Now the fn() will only run once, no matter how many times the props are updated.

@@ -18,7 +18,7 @@ function LearnForwardRef() {
 
 }
 
-export function ChildOfForwardRef({inputRef, updateInputElement}) {
+function ChildOfForwardRef({inputRef, updateInputElement}) {
 
     return (
         <div className="universal-container">

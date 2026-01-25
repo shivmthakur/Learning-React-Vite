@@ -5,10 +5,10 @@ function Clock() {
     const [dropdownValue, setDropdownValue] = useState('select a color');
 
     return (
-        <>
+        <div className="universal-container">
             <Dropdown dropdownValue={dropdownValue} setDropdownValue={setDropdownValue} />
             <ClockBanner color={dropdownValue} />
-        </>
+        </div>
     );
 }
 
@@ -19,14 +19,12 @@ export function Dropdown({ dropdownValue, setDropdownValue }) {
     }
     return (
         <>
-            <div className="universal-container">
-                <select name="color" id="color" onChange={handleChange} defaultValue={dropdownValue}>
-                    <option value="select a color" hidden>Select a color</option>
-                    <option value="Blue">Blue</option>
-                    <option value="Yellow">Yellow</option>
-                    <option value="Gray">Gray</option>
-                </select>
-            </div>
+            <select name="color" id="color" onChange={handleChange} defaultValue={dropdownValue}>
+                <option value="select a color" hidden>Select a color</option>
+                <option value="Blue">Blue</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Gray">Gray</option>
+            </select>
         </>
     );
 

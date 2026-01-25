@@ -19,7 +19,7 @@ function LearnUseFormStatus() {
     );
 }
 
-export function Form() {
+function Form() {
 
     const {pending} = useFormStatus();
     console.log(pending);

@@ -126,7 +126,7 @@ function LearnExternalStyle() {
     );
 }
 
-export function UserCard({ userDetails }) {
+function UserCard({ userDetails }) {
     return (
         <>
             {
@@ -150,7 +150,7 @@ export function UserCard({ userDetails }) {
     );
 }
 
-export function UserImage({ imgLink }) {
+function UserImage({ imgLink }) {
     return (
         <>
             <img src={imgLink} alt="Image not found" />
@@ -158,7 +158,7 @@ export function UserImage({ imgLink }) {
     );
 }
 
-export function UserName({ name }) {
+function UserName({ name }) {
     return (
         <>
             <h4>{name}</h4>
@@ -166,7 +166,7 @@ export function UserName({ name }) {
     );
 }
 
-export function UserId({ id }) {
+function UserId({ id }) {
     return (
         <>
             <p>{id}</p>
@@ -174,7 +174,7 @@ export function UserId({ id }) {
     );
 }
 
-export function UserAge({ age }) {
+function UserAge({ age }) {
     return (
         <>
             <p>{age}</p>
@@ -182,7 +182,7 @@ export function UserAge({ age }) {
     );
 }
 
-export function UserRole({ role }) {
+function UserRole({ role }) {
     return (
         <>
             <p>{role}</p>
@@ -190,7 +190,7 @@ export function UserRole({ role }) {
     );
 }
 
-export function UserTeam({ team }) {
+function UserTeam({ team }) {
     return (
         <>
             <p>{team}</p>
@@ -198,7 +198,7 @@ export function UserTeam({ team }) {
     );
 }
 
-export function UserLocation({ location }) {
+function UserLocation({ location }) {
     return (
         <>
             <p>{location}</p>
